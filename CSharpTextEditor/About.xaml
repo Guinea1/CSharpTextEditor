@@ -1,0 +1,13 @@
+﻿<Window x:Class="CSharpTextEditor.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSharpTextEditor"
+        mc:Ignorable="d"
+        Title="About" Height="150" Width="200" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Text Editor" VerticalAlignment="Top" Margin="0,37,0,0"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Bobby D" VerticalAlignment="Top" Margin="0,58,0,0"/>
+    </Grid>
+</Window>
